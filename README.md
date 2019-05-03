@@ -13,7 +13,7 @@ Then the process starts again.
 This typical phase of an evolutional process is missed in this project, because there is not really an population. In this project are only two DNAs which competes each other.
 
 ## Mutation
-With a chance of "mutation_rate" the master DNA will be changed in the amount of "mutation_amount". This includes position, radius x, radius y and color & alpha values of each circle ("creature"). Inside the mutation function is a hard coded chance of 5% to "jump mutate" the position or color value. (see code)
+With a chance of `mutation_rate` the master DNA will be changed in the amount of `mutation_amount`. This includes position, radius x, radius y and color & alpha values of each circle ("creature"). Inside the mutation function is a hard coded chance of 5% to "jump mutate" the position or color value. (see code)
 
 I coded this on a weekend for fun and therefore there is a lot to refactor, I think. ;-) Please feel free to improve the code. 
 
