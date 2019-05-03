@@ -1,8 +1,8 @@
 # Genetic Painting
-A genetic algorithm in JavaScript that trys to repaint the Mona Lisa only using Ellipses.
+A genetic algorithm in JavaScript using p5.js that trys to repaint the Mona Lisa only using Ellipses.
 All paramaters are mostly self explaining and placed in sketch.js.
 
-## Selektion
+## Selection
 To find the best DNA the program handles two DNA-Arrays. The current and on the left side visble "master" DNA and the
 "buffer" DNA which contains the actual fittest DNA.
 In the main loop the algorithm mutates the master DNA and compares it to the buffer DNA.
